@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Егор Сметанин](https://up.htmlacademy.ru/htmlcss/31/user/559511).
-* Наставник: `[Artem Ryzhov](https://htmlacademy.ru/profile/id1387905)`.
+* Наставник: [Artem Ryzhov](https://htmlacademy.ru/profile/id1387905).
 
 ---
 
