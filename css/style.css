@@ -343,7 +343,8 @@ ins {
   grid-column: 1/2;
   grid-row: 1/2;
   height: 45px;
-  padding-right: 50px;
+  padding-right: 47px;
+  margin-top: -3px;
 }
 
 .telephone-number a::before {
@@ -352,8 +353,8 @@ ins {
   height: 19px;
   background: url(../img/svg/icon-phone.svg) no-repeat center;
   position: absolute;
-  top: 13.5px;
-  left: 39px;
+  top: 10px;
+  left: 36.5px;
 }
 
 .header-address {
@@ -437,6 +438,10 @@ ins {
   color: #c5c5c5;
 }
 
+.name-user:hover ~ .icon-user path {
+  fill: #3d546f;
+}
+
 .icon-user {
   position: absolute;
   width: 20px;
@@ -481,7 +486,7 @@ ins {
 }
 
 .private-user .private-user-order {
-  margin-left: 38px;
+  margin-left: 42px;
   position: relative;
 }
 
@@ -491,12 +496,12 @@ ins {
   width: 7px;
   height: 7px;
   top: 8px;
-  left: 90px;
+  left: 88px;
   background: url(../img/svg/min_circle.svg) no-repeat center;
 }
 
 .private-user .private-user-cabinet {
-  margin-right: 27px;
+  margin-right: 28px;
 }
 
 .private-user-order,
@@ -520,6 +525,7 @@ ins {
   background-color: var(--basic-darkgrey);
   grid-column: 1/-1;
   margin-bottom: 60px;
+  margin-top: 4px;
 }
 
 .site-navigation {
@@ -864,8 +870,13 @@ ins {
 }
 
 .block-title h1 {
-  margin: 0;
   padding: 29px 200px 30px 29px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.block-title h2 {
+  font-weight: normal;
 }
 
 .block-title .button {
@@ -889,7 +900,7 @@ ins {
   font-size: 30px;
   line-height: 30px;
   color: var(--basic-darkgrey);
-  padding: 29px 0 29px 29px;
+  padding: 34px 0 29px 29px;
   margin: 0;
 }
 
@@ -927,7 +938,86 @@ ins {
 }
 
 .catalog .product-item h3 {
-  margin-top: -5px;
+  margin-top: -7px;
+}
+
+.popular-products .product-item:nth-child(4) img {
+  margin-top: 32px;
+  margin-left: 40px;
+}
+
+.popular-products .product-item:nth-child(3) img {
+  margin-top: 24px;
+  margin-left: 32px;
+}
+
+.popular-products .product-item:nth-child(2) img {
+  margin-top: 32px;
+  margin-left: 40px;
+}
+
+.catalog .product-item:nth-child(1) img {
+  margin-top: 20px;
+  margin-left: 32px;
+}
+
+.catalog .product-item:nth-child(2) img {
+  margin-top: 20px;
+  margin-left: 32px;
+}
+
+.catalog .product-item:nth-child(4) img {
+  margin-top: 28px;
+  margin-left: 40px;
+}
+
+.catalog .product-item:nth-child(5) img {
+  margin-top: 20px;
+  margin-left: 32px;
+}
+
+.catalog .product-item:nth-child(6) img {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.catalog .product-item:nth-child(7) img {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.catalog .product-item:nth-child(8) img {
+  margin-top: 21px;
+  margin-left: 32px;
+}
+
+.catalog .product-item:nth-child(9) img {
+  margin-top: 29px;
+  margin-left: 40px;
+}
+
+.catalog .product-item:nth-child(7) .product-price-new {
+  margin-top: 3px;
+}
+
+.catalog .product-item:nth-child(8) .product-price-new {
+  margin-top: 3px;
+}
+
+.catalog .product-item:nth-child(9) .product-price-new {
+  margin-top: 3px;
+}
+
+.popular-products .product-item h3 {
+  margin-top: -2px;
+}
+
+.popular-products .product-price-new {
+  margin-top: 1px;
+}
+
+.catalog .product-price-new {
+  margin-top: 2px;
 }
 
 .product-item:hover .product-item-active {
@@ -999,6 +1089,7 @@ ins {
 
 .product-item .product-price-new {
   padding: 10px 44px 10px 32px;
+  margin-left: 12px;
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -1183,6 +1274,7 @@ ins {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 .tabs-content.content-1::after {
@@ -1192,7 +1284,7 @@ ins {
   content: "";
   width: 468px;
   height: 290px;
-  background: url(../img/delivery.png) no-repeat center; 
+  background: url(../img/delivery.png) no-repeat center;
 }
 
 .tabs-content.content-2::after {
@@ -1233,6 +1325,7 @@ ins {
   line-height: 30px;
   color: var(--black);
   text-transform: uppercase;
+  font-weight: normal;
 }
 .section-info h2 {
   padding: 0;
@@ -1496,6 +1589,7 @@ ins {
 .block-link-feedback p {
   margin: 0;
   display: inline-block;
+  vertical-align: top;
 }
 
 .block-link-feedback p:last-child {
@@ -1520,6 +1614,14 @@ ins {
 
 /* style catalog.html */
 
+.main-page {
+  margin-top: -4px;
+}
+
+.main-catalog {
+  margin-top: -4px;
+}
+
 .breadcrumbs {
   position: relative;
   font-family: "PT Sans", Arial, sans-serif;
@@ -1532,6 +1634,22 @@ ins {
   position: relative;
   display: inline-block;
   margin-right: 40px;
+  vertical-align: top;
+}
+
+.breadcrumbs li:nth-child(2) {
+  margin-top: 1px;
+  margin-left: -2px;
+}
+
+.breadcrumbs li:nth-child(3) {
+  margin-top: 1px;
+  margin-left: -2px;
+}
+
+.breadcrumbs li:nth-child(4) {
+  margin-top: 1px;
+  margin-left: -2px;
 }
 
 .breadcrumbs li:nth-child(2):before {
@@ -1558,7 +1676,7 @@ ins {
   content: "";
   position: absolute;
   top: 8px;
-  left: -30px;
+  left: -26px;
   width: 8px;
   height: 12px;
   background: url(../img/svg/icon-right-small.svg) no-repeat;
@@ -1613,6 +1731,10 @@ fieldset {
 
 fieldset.power {
   border-bottom: none;
+}
+
+.power {
+  margin-top: -2px;
 }
 
 fieldset legend {
@@ -1695,9 +1817,14 @@ fieldset legend {
   line-height: 18px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 .price-controls input {
   width: 75px;
-  padding: 10px;
+  padding: 8px 10px 10px 10px;
   text-align: center;
   color: #283136;
   border: none;
@@ -1708,17 +1835,43 @@ fieldset legend {
   outline: none;
 }
 
+.min-price-field {
+  padding-left: 0;
+  padding-top: 0;
+}
+
 .max-price input {
   margin-left: 25px;
 }
 
 .filter-company {
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
 .filter-company-list {
-  margin-top: 18px;
+  margin-top: 21px;
   margin-bottom: 10px;
+}
+
+.filter-company-list li:first-child {
+  margin-top: -3px;
+}
+
+.filter-company-list li:nth-child(2) {
+  margin-top: 1px;
+}
+
+.filter-company-list li:nth-child(3) {
+  margin-top: 1px;
+}
+
+.filter-company-list li:nth-child(4) {
+  margin-top: 1px;
+}
+
+.filter-company-list li:nth-child(5) {
+  margin-top: 1px;
 }
 
 .filter-company-item {
@@ -1727,7 +1880,7 @@ fieldset legend {
 }
 
 .filter-power-list {
-  margin-top: 27px;
+  margin-top: 25px;
 }
 
 .filter-power-item {
@@ -1941,6 +2094,7 @@ fieldset legend {
   margin-top: 64px;
   margin-bottom: 25px;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 .catalog-info-paragraf {

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Academy: Техномарт</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicon/icon.svg" type="image/svg+xml">
 </head>
@@ -21,7 +21,7 @@
         </a>
         <h1 class="visually-hidden">Магазин Техномарт</h1>
         <form class="site-search" action="https://echo.htmlacademy.ru" method="get">
-          <input class="search-field" type="search" placeholder="Поиск:">
+            <input class="search-field" type="search" placeholder="Поиск:">
           <svg class="icon-search" width="17" height="17" viewBox="0 0 17 17" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -72,7 +72,7 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="main-page">
     <section class="features container">
       <h2 class="visually-hidden">Что мы предлагаем</h2>
       <ul class="features-list">
@@ -146,7 +146,7 @@
             <button class="item-button-bookmarks " type="button">В Закладки</button>
           </p>
           <p class="item-img">
-            <img src="img/catalog/object-1.jpg" alt="Синий проводной перфоратор с длиным сверлом" width="184"
+            <img src="img/catalog/obj_1.jpg" alt="Синий проводной перфоратор с длиным сверлом" width="184"
               height="164">
           </p>
           <a href="">
@@ -163,7 +163,7 @@
             <button class="item-button-bookmarks " type="button">В Закладки</button>
           </p>
           <p class="item-img">
-            <img src="img/catalog/object-2.jpg" alt=" акамуляторный перфоратор черно-синего цвета " width="127"
+            <img src="img/catalog/obj_2.jpg" alt=" акамуляторный перфоратор черно-синего цвета " width="127"
               height="112">
           </p>
           <a href="#">
@@ -180,7 +180,7 @@
             <button class="item-button-bookmarks " type="button">В Закладки</button>
           </p>
           <p class="item-img">
-            <img src="img/catalog/object-3.jpg" alt="акамуляторный перфоратор , черно-синего цвета с удобной ручкой"
+            <img src="img/catalog/obj_3.jpg" alt="акамуляторный перфоратор , черно-синего цвета с удобной ручкой"
               width="144" height="128">
           </p>
           <a href="#">
@@ -197,7 +197,7 @@
             <button class="item-button-bookmarks " type="button">В Закладки</button>
           </p>
           <p class="item-img">
-            <img src="img/catalog/object-4.jpg" alt="акамуляторный перфоратор черно-синего цвета" width="127"
+            <img src="img/catalog/obj_4.jpg" alt="акамуляторный перфоратор черно-синего цвета" width="127"
               height="112">
           </p>
           <a href="#">
@@ -216,21 +216,21 @@
         <a class="button" href="#">все производители</a>
       </div>
       <ul class="company-list">
-        <li class="company-item"><a href="#"><img src="img/logo-partner/Object.png" alt="логотип компании bosch"
+        <li class="company-item"><a href="#"><img src="img/logo-partner/partner.png" alt="логотип компании bosch"
               width="126" height="37"></a></li>
-        <li class="company-item"><a href="#"><img src="img/logo-partner/object-1.png" alt="логотип компании makita"
+        <li class="company-item"><a href="#"><img src="img/logo-partner/partner-1.png" alt="логотип компании makita"
               width="123" height="40"></a></li>
-        <li class="company-item"><a href="#"><img src="img/logo-partner/object-2.png" alt="логотип компании deWalt"
+        <li class="company-item"><a href="#"><img src="img/logo-partner/partner-2.png" alt="логотип компании deWalt"
               width="146" height="44"></a></li>
-        <li class="company-item"><a href="#"><img src="img/logo-partner/object-3.png" alt="логотип компании интерскол"
+        <li class="company-item"><a href="#"><img src="img/logo-partner/partner-3.png" alt="логотип компании интерскол"
               width="200" height="76"></a></li>
-        <li class="company-item"><a href="#"><img src="img/logo-partner/object-4.png" alt="логотип компании hitachi"
+        <li class="company-item"><a href="#"><img src="img/logo-partner/partner-4.png" alt="логотип компании hitachi"
               width="169" height="31"></a></li>
-        <li class="company-item"><a href="#"><img src="img/logo-partner/object-5.png" alt="логотип компании LG"
+        <li class="company-item"><a href="#"><img src="img/logo-partner/partner-5.png" alt="логотип компании LG"
               width="121" height="73"></a></li>
-        <li class="company-item"><a href="#"><img src="img/logo-partner/object-6.png" alt="логотип компании AEG"
+        <li class="company-item"><a href="#"><img src="img/logo-partner/partner-6.png" alt="логотип компании AEG"
               width="151" height="98"></a></li>
-        <li class="company-item"><a href="#"><img src="img/logo-partner/object-7.png" alt="логотип компании metabo"
+        <li class="company-item"><a href="#"><img src="img/logo-partner/partner-7.png" alt="логотип компании metabo"
               width="206" height="73"></a></li>
       </ul>
     </section>
@@ -312,9 +312,11 @@
         <p>Вы можете забрать товар сами,
           заехав в наш офис:</p>
         <div class="map">
-          <div class="map-img">
-            <img src="img/map.jpg" alt="карта" width="300" height="158">
-          </div>
+          <a href="#">
+            <div class="map-img">
+              <img src="img/map.jpg" alt="карта" width="300" height="158">
+            </div>
+          </a>
           <a class="button button-letter" href="#">Заблудились? Напишите нам!</a>
         </div>
       </section>
@@ -414,7 +416,7 @@
     </div>
     <button class=" button-close-map" type="button" aria-label="Закрыть"></button>
   </section>
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
 
 </html>
